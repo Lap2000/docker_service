@@ -1,0 +1,34 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Category {
+  id: ID!
+  fullName: String!
+}
+
+type ProductsGraphql {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+type Query {
+  productsGraphql(id: Int!): ProductsGraphql!
+}
+
+type Mutation {
+  createProductsGraphql(createProductsGraphqlInput: CreateProductsGraphqlInput!): ProductsGraphql!
+  updateProductsGraphql(updateProductsGraphqlInput: UpdateProductsGraphqlInput!): ProductsGraphql!
+  removeProductsGraphql(id: Int!): ProductsGraphql!
+}
+
+input CreateProductsGraphqlInput {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+input UpdateProductsGraphqlInput {
+  """Example field (placeholder)"""
+  exampleField: Int
+  id: Int!
+}
